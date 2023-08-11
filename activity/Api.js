@@ -1,4 +1,11 @@
-console.log("hello")
+console.log("To Run:")
+console.log(">>npm init -y")
+console.log(">>npm i axios")
+console.log(">>npm i fs")
+console.log(">>npm i moment")
+console.log(">>node Api.js") // to Make JSON Data File
+
+
 
 // const cheerio = require("cheerio");
 const axios = require("axios");
@@ -7,7 +14,7 @@ const moment = require('moment');
 
 const owner = 'yasharsajadi';
 const apiUrl = `https://api.github.com/users/${owner}/repos?sort=pushed`;
-const accessToken = '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';
+const accessToken = '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';
 
 
 axios.get(apiUrl, {headers: {'Authorization': `token ${accessToken}`}})
@@ -67,7 +74,6 @@ axios.get(apiUrl, {headers: {'Authorization': `token ${accessToken}`}})
     }); 
   })
   .catch(error => {console.log(error);});
-
 
 
 
