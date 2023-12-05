@@ -28,6 +28,8 @@ body {
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
+	align-items: center;
+    justify-content: center;
 }
 
 #audio-container {

@@ -1,9 +1,9 @@
-console.log("To Run:")
-console.log(">>npm init -y")
-console.log(">>npm i axios")
-console.log(">>npm i fs")
-console.log(">>npm i moment")
-console.log(">>node Api.js") // to Make JSON Data File
+//console.log("To Run:")
+//console.log(">>npm init -y")
+//console.log(">>npm i axios")
+//console.log(">>npm i fs")
+//console.log(">>npm i moment")
+//console.log(">>node Api.js") // to Make JSON Data File
 
 
 
