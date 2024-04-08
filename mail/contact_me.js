@@ -27,7 +27,7 @@ $(function() {
         message: message
       };
       const publicKey = "-Sdx5fKe3_tGSC4qU";
-      const serviceID = "service_p61ebnw";
+      const serviceID = "service_mc7pvaj";
       const templateID = "template_zb2cazw";
       emailjs.init(publicKey);
       emailjs.send(serviceID, templateID, templateParams)
